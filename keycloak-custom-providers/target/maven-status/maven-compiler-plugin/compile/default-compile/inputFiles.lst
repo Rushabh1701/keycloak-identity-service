@@ -1,0 +1,6 @@
+D:\keycloak-identity-service\keycloak-custom-providers\src\main\java\com\baeldung\auth\provider\mapper\CustomProtocolMapper.java
+D:\keycloak-identity-service\keycloak-custom-providers\src\main\java\com\baeldung\auth\provider\user\DbUtil.java
+D:\keycloak-identity-service\keycloak-custom-providers\src\main\java\com\baeldung\auth\provider\user\CustomUserStorageProvider.java
+D:\keycloak-identity-service\keycloak-custom-providers\src\main\java\com\baeldung\auth\provider\user\CustomUser.java
+D:\keycloak-identity-service\keycloak-custom-providers\src\main\java\com\baeldung\auth\provider\user\CustomUserStorageProviderFactory.java
+D:\keycloak-identity-service\keycloak-custom-providers\src\main\java\com\baeldung\auth\provider\user\CustomUserStorageProviderConstants.java
