@@ -1,0 +1,32 @@
+server:
+  port: 8083
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    defer-datasource-initialization: true
+  jdbc:
+    batch_size: 100
+  datasource:
+    url: jdbc:mysql://localhost:3306/keycloack
+    username: keycloakuser
+    password: Admin@123
+    initialSize: 20
+    maxActive: 50
+    maxIdle: 20
+    maxWait: 10000
+    minEvictableIdleTimeMillis: 60000
+    numTestsPerEvictionRun: 5
+    timeBetweenEvictionRunsMillis: 60000
+    validationQuery: select 1 from dual
+
+
+keycloak:
+  server:
+    contextPath: /auth
+    adminUser:
+      username: qualtab-admin
+      password: pass
+    realmImportFile: baeldung-realm.json
